@@ -20,12 +20,15 @@ const ShopCategory = ({category, banner}) => {
       <div className="shopcategory-products">
         {all_product.map((item, i) => {
           if(category === item.category) {
-            return <Item key={i} id={item.id} name={item.name} image= {item.image} newPrice={item.new_price} oldPrice={item.old_price} />
+            return <Item className="shopcategory-items" key={i} id={item.id} name={item.name} image= {item.image} newPrice={item.new_price} oldPrice={item.old_price} />
           }
           else {
             return null;
           }
         })}
+      </div>
+      <div className="shopcategory-loadmore">
+        Explore More
       </div>
     </div>
   )
