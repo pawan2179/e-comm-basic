@@ -27,9 +27,6 @@
 }
 
 @media(max-width:1280px) {
-  .new-collections {
-    height: 70vh;
-  }
   .new-collections h1 {
     font-size: 40px;
   }
@@ -44,9 +41,6 @@
 }
 
 @media(max-width:1024px) {
-  .new-collections {
-    height: 60vh;
-  }
   .new-collections h1 {
     font-size: 30px;
   }
@@ -62,7 +56,6 @@
 
 @media(max-width:800px) {
   .new-collections {
-    height: 50vh;
     gap: 6px;
   }
   .new-collections h1 {
@@ -77,9 +70,6 @@
 }
 
 @media(max-width:500px) {
-  .new-collections {
-    height: 90vh;
-  }
   .collections {
     display: grid;
     grid-template-columns: 1fr 1fr;
